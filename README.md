@@ -5,7 +5,7 @@ A Node.JS package that lists apps installed or check if app is installed on a Ma
 ## 👨‍💻 Install
 
 ```bash
-$npm install get-mac-apps
+$ npm install get-mac-apps
 ```
 
 ## 🔌 Usage
