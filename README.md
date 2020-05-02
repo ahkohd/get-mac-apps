@@ -5,13 +5,13 @@ A Node.JS package that lists apps installed or check if app is installed on a Ma
 ## 👨‍💻 Install
 
 ```bash
-$npm install @ahkohd/get-mac-apps
+$npm install get-mac-apps
 ```
 
 ## 🔌 Usage
 
 ```js
-let getWinApps = require("@ahkohd/get-win-apps");
+let getWinApps = require("get-mac-apps");
 
 // 🦄 Get the list of all installed apps...
 
