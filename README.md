@@ -1,14 +1,14 @@
-## get-mac-apps
+# get-mac-apps
 
 A Node.JS package that lists apps installed or check if app is installed on a Mac 🍏.
 
-## 👨‍💻 Install
+# 👨‍💻 Install
 
 ```bash
 $npm install @ahkohd/get-mac-apps
 ```
 
-## 🔌 Usage
+# 🔌 Usage
 
 ```js
 let getWinApps = require("@ahkohd/get-win-apps");
@@ -28,7 +28,7 @@ getMacApps
   .catch(error => console.log(error.message));
 ```
 
-## ✅ OUTPUT
+# ✅ OUTPUT
 
 ```ts
  getApps() -> Array<{ _name: String,
@@ -42,17 +42,19 @@ isInstalled(appName: String) -> boolean | Error
 
 ```
 
-## 🤔 How it works
+# 🤔 How it works
 
 Easy as pie! We use Node.JS to spawn a `system profiler` process to profile apps installed on the Mac. We parse the resulting `plist`.
 
-> Try it out on your terminal
+---
+
+Try the `installed apps profiler` command on your terminal:
 
 ```bash
 /usr/sbin/system_profiler -xml -detailLevel mini SPApplicationsDataType
 ```
 
-## 🛠 Development
+# 🛠 Development
 
 ```bash
 git clone https://github.com/ahkohd/get-mac-apps.git
@@ -63,6 +65,6 @@ npm test
 
 ```
 
-## 🧾 License
+# 🧾 License
 
 [MIT](./LICENSE.md)
