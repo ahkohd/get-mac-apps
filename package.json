@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/ahkohd/get-mac-apps.git"
   },
-  "author": "",
+  "keywords": [
+    "node",
+    "apps",
+    "macos",
+    "installed"
+  ],
+  "author": "Victor Aremu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ahkohd/get-mac-apps/issues"
