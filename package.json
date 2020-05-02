@@ -1,0 +1,22 @@
+{
+  "name": "get-mac-apps",
+  "version": "1.0.0",
+  "description": "Get list of apps installed on a Mac",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahkohd/get-mac-apps.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahkohd/get-mac-apps/issues"
+  },
+  "homepage": "https://github.com/ahkohd/get-mac-apps#readme",
+  "dependencies": {
+    "plist": "^3.0.1"
+  }
+}
