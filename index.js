@@ -4,7 +4,7 @@ module.exports = {
   getApps: () => {
     return new Promise((resolve, reject) => getApps(resolve, reject));
   },
-  isInstalled: appName => {
+  isInstalled: (appName) => {
     return new Promise((resolve, reject) => getApps(resolve, reject, appName));
-  }
+  },
 };
